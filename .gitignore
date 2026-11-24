@@ -1,0 +1,17 @@
+# Build & output artifacts
+build/
+out/
+dist/
+
+# Downloaded third-party binaries (fetched via scripts/fetch_libmpv.ps1)
+third_party/
+
+# Runtime user settings
+keybinds.json
+
+# Visual Studio & IDE files
+.vs/
+*.user
+*.suo
+*.sln.docstates
+CMakeUserPresets.json
